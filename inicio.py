@@ -6,7 +6,7 @@ def app_inicio():
 	st.header("Misión")
 	st.header("Visión")
 	st.header("Sobre los colaboradores")
-	columna1,columna2,columna3=st.beta_columns(3)
+	columna1,columna2,columna3=st.columns(3)
 	with columna1:
 		perfil1=Image.open("perfiles/Baquero_W.jpeg")
 		st.image(perfil1)
@@ -19,7 +19,7 @@ def app_inicio():
 		perfil3=Image.open("perfiles/Quillupangui_C.jpeg")
 		st.image(perfil3)
 		st.warning("Ingeniero ambiental con 2 años de experiencia en proyectos relacionados a la gestión ambiental, laboratorio, manejo y automatización de herramientas en Sistemas de Información Geográfico. Posee conocimientos en manejo de Base de Datos con PostgreSQL, Prevención de Riesgos laborales y de legislación ambiental -0996089515 -christiandqn125@gmail.com")
-	columna4,columna5,columna6=st.beta_columns(3)
+	columna4,columna5,columna6=st.columns(3)
 	with columna4:
 		perfil4=Image.open("perfiles/Quispe_J.jpeg")
 		st.image(perfil4)
