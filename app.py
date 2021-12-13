@@ -18,8 +18,8 @@ st.sidebar.image(logo,width=100, use_column_width=True)
 st.title("App-Geoportal")
 st.sidebar.title("Configuraciones")
 menu_configuraciones= st.sidebar.selectbox("Seleccione una opción",
-					  					  ['Seleccione', 'Carga de data', 'Análisis de data','Georreferenciación'],
-					  					   format_func=lambda x: 'Seleccione' if x == '' else x)
+					  ['Seleccione', 'Carga de data', 'Análisis de data','Georreferenciación'],
+					  format_func=lambda x: 'Seleccione' if x == '' else x)
 
 
 # -------Módulos----------#
