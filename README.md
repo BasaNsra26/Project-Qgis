@@ -2,7 +2,7 @@
 ## Descripción
 Proyecto destinado al levantamiento de información, análisis de data y mapeo 
 ## Link del aplicativo
-https://proyect-qgis.herokuapp.com/
+https://project-qgis.herokuapp.com/
 ## Autores
 - Baquero Widman
 - Carrillo Carlos
