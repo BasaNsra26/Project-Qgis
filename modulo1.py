@@ -68,7 +68,7 @@ def analisis_data(df):
 			st.altair_chart(grafico_lineas, use_container_width=True)
 		with columna6:
 			# Pie chart, where the slices will be ordered and plotted counter-clockwise:
-			labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
+			labels = 'MUESTRA', 'RECOLECCIÓN', 'RESULTADOS', 'REGISTROS'
 			sizes = [15, 30, 45, 10]
 			explode = (0, 0.1, 0, 0)  # only "explode" the 2nd slice (i.e. 'Hogs')
 
